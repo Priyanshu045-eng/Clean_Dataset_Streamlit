@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd 
 import numpy as np
-import scikit-learn
+import scikit learn
 from sklearn.preprocessing import StandardScaler
 
 import pickle
