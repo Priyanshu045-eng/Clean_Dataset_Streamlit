@@ -11,9 +11,6 @@ with open('Clean_Dataset_Model.pkl', 'rb') as file:
     model = pickle.load(file)
 
 scaler = StandardScaler()
-# model_columns = pickle.load(open('columns.pkl', 'rb'))
-
-# scaler = pickle.load(open('scaler.pkl', 'rb'))
 
 st.title("Clean_Dataset_Model")
 
